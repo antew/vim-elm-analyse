@@ -2,6 +2,8 @@
 
 This plugin adds support for linting through [ALE](https://github.com/w0rp/ale) with [elm-analyse](https://github.com/stil4m/elm-analyse).
 
+### ** Only Elm 0.19 is supported by this plugin **
+
 # Installation
 
 ## vim-elm-analyse
