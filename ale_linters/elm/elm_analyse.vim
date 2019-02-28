@@ -9,10 +9,10 @@ endfunction
 call ale#linter#Define('elm', {
 \   'name': 'elm_analyse',
 \   'lsp': 'stdio',
-\   'executable_callback':
-\       ale#node#FindExecutableFunc('elm_analyse', [
+\   'executable': {b -> ale#node#FindExecutable(b, 'elm_analyse', [
 \       'node_modules/.bin/elm-analyse',
-\   ]),
+\   ])},
 \   'command': '%e --lsp --stdio',
-\   'project_root_callback': 'elm_analyse#GetRootDir',
+\   'project_root': function('elm_analyse#GetRootDir'),
+\   'language': '',
 \})

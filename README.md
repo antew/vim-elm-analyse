@@ -15,7 +15,9 @@ This plugin adds support for linting through [ALE](https://github.com/w0rp/ale) 
 
 ## elm-analyse
 
-I recommend installing it globally, `npm i -g elm-analyse`
+NOTE: This project currently requires a fork of elm-analyse.
+
+I recommend installing it globally, `npm i -g antew/elm-analyse#lsp`
 
 For more info [see here](https://github.com/stil4m/elm-analyse/#install)
 
