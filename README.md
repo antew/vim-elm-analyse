@@ -17,7 +17,7 @@ This plugin adds support for linting through [ALE](https://github.com/w0rp/ale) 
 
 ## elm-analyse
 
-NOTE: This project currently requires a fork of elm-analyse.
+NOTE: This project currently requires a [fork of elm-analyse](https://github.com/stil4m/elm-analyse/compare/stil4m:master...antew:lsp).
 
 I recommend installing it globally, `npm i -g antew/elm-analyse#lsp`
 
